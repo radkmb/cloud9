@@ -1,0 +1,26 @@
+body {
+    background-color: white;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 20px;
+    border-top: 2px black dotted;
+    border-bottom: 2px black dotted;
+    background-color: aqua;
+    text-align: center;
+}
+
+ul {
+    list-style-type: square;
+}
+
+span {
+    color: red;
+    font-size: 18px;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}

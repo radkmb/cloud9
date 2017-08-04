@@ -1,0 +1,61 @@
+body {
+    background-color: gray;
+    font-size: 16px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.restaurant {
+    display: block;
+    border: 2px red solid;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.red {
+    color: red;
+}
+
+.marker {
+    background-color: pink;
+}
+
+.explain {
+    text-align: left;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.menu {
+    display: block;
+    border: 2px black solid;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+dt {
+    padding-left: 10px;
+    border-left: 5px blue solid;
+    border-bottom: 1px black dashed;
+}
+
+.star {
+    color: white;
+}

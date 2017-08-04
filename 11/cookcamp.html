@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>CookCamp</title>
+    <link rel="stylesheet" href="html5reset-1.6.1.css">
+    <link rel="stylesheet" href="cookcamp.css">
+    <link rel="icon" href="images/icon/favicon.ico">
+</head>
+
+<body>
+  <!--header-->
+  <header>
+    <div class="width flex">
+      <div class="headerTop">
+        <img src="images/structure/logo.png">
+        <p class="catchcopy">
+          誰でも作れる簡単料理レシピ掲載サイト
+        </p>
+      </div>
+      <form action="#">
+        <input type="text" name="search" class="headerSearch" placeholder="料理名・食材名で検索">
+        <input type="submit" name="submit" class="searchBtn" value="レシピ検索">
+      </form>
+    </div>
+
+    <div>
+      <ul class="headerNav flex width">
+        <li class="headerNav-li">
+          <a class="headerNav-a" href="#">新着レシピ</a>
+        </li>
+        <li class="headerNav-li">
+          <a class="headerNav-a" href="#">料理から検索</a>
+        </li>
+        <li class="headerNav-li">
+          <a class="headerNav-a" href="#">食材から検索</a>
+        </li>
+        <li class="headerNav-li">
+          <a class="headerNav-a" href="#">旬の料理特集</a>
+        </li>
+        <li class="headerNav-li">
+          <a class="headerNav-a" href="#">ランキング</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!--main-->
+  <div class="width">
+    <div>
+      <a href="#">
+        <img src="images/contents/mainView.jpg" class="mainView" alt="フレンチ特集">
+      </a>
+    </div>
+    <div class="flex">
+      <nav>
+        <div class="sideMenu backgroundColor articleBottom">
+          <h3 class="sideMenu-title">料理別レシピ</h3>
+          <ul class="sideMenu-ul">
+            <li class="sideMenu-li">
+              <a class="sideMenu-a" href="#">和食</a>
+            </li>
+            <li class="sideMenu-li">
+              <a class="sideMenu-a" href="#">イタリアン</a>
+            </li>
+            <li class="sideMenu-li">
+              <a class="sideMenu-a" href="#">フレンチ</a>
+            </li>
+            <li class="sideMenu-li">
+              <a class="sideMenu-a" href="#">中華</a>
+            </li>
+            <li class="sideMenu-li">
+              <a class="sideMenu-a" href="#">アジアン</a>
+            </li>
+            <li class="sideMenu-li">
+              <a class="sideMenu-a" href="#">エスニック</a>
+            </li>
+            <li class="sideMenu-li">
+              <a class="sideMenu-a" href="#">鍋</a>
+            </li>
+            <li class="sideMenu-li">
+              <a class="sideMenu-a" href="#">デザート</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="sideMenu backgroundColor articleBottom">
+          <h3 class="sideMenu-title">料理別レシピ</h3>
+          <ul class="sideMenu-ul">
+            <li class="sideMenu-li">
+              <a class="sideMenu-a" href="#">お弁当</a>
+            </li>
+            <li class="sideMenu-li">
+              <a class="sideMenu-a" href="#">簡単おかず</a>
+            </li>
+            <li class="sideMenu-li">
+              <a class="sideMenu-a" href="#">ダイエット</a>
+            </li>
+            <li class="sideMenu-li">
+              <a class="sideMenu-a" href="#">ベビーフード</a>
+            </li>
+            <li class="sideMenu-li">
+              <a class="sideMenu-a" href="#">節約食材</a>
+            </li>
+            <li class="sideMenu-li">
+              <a class="sideMenu-a" href="#">アレルギー</a>
+            </li>
+            <li class="sideMenu-li">
+              <a class="sideMenu-a" href="#">シニア料理</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <article>
+        <section class="backgroundColor detail articleBottom">
+          <div class="article-title">
+            <h3 class="sideMenu-title">新着レシピ</h3>
+          </div>
+
+          <div class="recipeContent">
+            <ul class="flex justifyContent article-ul">
+              <li>
+                <a href="#">
+                  <figure class="newRecipe-img">
+                    <img src="images/contents/newRecipes1.jpg" alt="前菜">
+                    <figcaption class="newRecipe-font">
+                      季節菜の彩り前菜
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <figure class="newRecipe-img">
+                    <img src="images/contents/newRecipes2.jpg" alt="かぼちゃスープ">
+                    <figcaption class="newRecipe-font">
+                      簡単かぼちゃスープ
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <figure class="newRecipe-img">
+                    <img src="images/contents/newRecipes3.jpg" alt="米粉パン">
+                    <figcaption class="newRecipe-font">
+                      ヘルシー米粉パン
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <figure class="newRecipe-img">
+                    <img src="images/contents/newRecipes4.jpg" alt="エビ料理">
+                    <figcaption class="newRecipe-font">
+                      ぷりぷりエビ料理
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <figure class="newRecipe-img">
+                    <img src="images/contents/newRecipes5.jpg" alt="鴨南蛮">
+                    <figcaption class="newRecipe-font">
+                      かんたん鴨南蛮
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="backgroundColor detail articleBottom">
+          <div class="article-title">
+            <h3 class="sideMenu-title">今だからこそ見直したい「和食」</h3>
+          </div>
+          <div class="flex pushRecipe-content">
+            <img src="images/contents/topics.jpg" class="topicView" alt="和食">
+            <div class="article-text fontColor">
+              <p class="article-p intend">
+                普段、私たちが何気なく口にしている和食ですが、その基本は一汁三菜。ご飯、味噌汁、お漬物、の他、主菜（魚またはお肉）、副菜として季節ごとの野菜と豆類で構成されます。
+              </p>
+              <p class="article-p intend">
+              昔から「旬の野菜を食べましょう」と言いますが、それは素材がじっくりと時間をかけて蓄積してきた旨みや栄養素が最高になったところでいただいて、効率よく栄養をとり風邪などの予防をしましょうね、ということです。
+              </p>
+              <p class="article-p">
+                それでは各季節毎の旬の野菜について調べてみましょう。
+              </p>
+              <a href="#" class="continue">続きを読む</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="backgroundColor detail articleBottom">
+          <div class="article-title">
+            <h3 class="sideMenu-title">簡単！おすすめレシピ</h3>
+          </div>
+          <div class="flex pushRecipe-content">
+            <div>
+              <img src="images/contents/pushRecipes1.jpg" class="pushRecipe-picture" alt="春野菜">
+            </div>
+            <div class="article-text fontColor">
+              <h4>季節の食材〜春〜</h4>
+              <p class="article-p pushArticle intend">
+              新たまねぎに春キャベツ、新じゃが、山菜などなど・・・春の野菜は風味が良くみずみずしいのが特徴です。
+              </p>
+              <p class="article-p">
+              それでは春野菜を使ったレシピを紹介しましょう。
+              </p>
+              <a href="#" class="continue">続きを読む</a>
+            </div>
+          </div>
+
+          <div class="flex pushRecipe-content">
+            <div>
+              <img src="images/contents/pushRecipes2.jpg" class="pushRecipe-picture" alt="花粉症対策">
+            </div>
+            <div class="article-text fontColor">
+              <h4>春野菜を食べて花粉症対策？！</h4>
+              <p class="article-p pushArticle intend">
+                春になると花粉症に悩まされる人は多いと思います。
+              </p>
+              <p class="article-p pushArticle">
+                この花粉症、ある食材を取ることで少し緩和されるんです！
+              </p>
+              <p class="article-p">
+                さて、その食材とは・・・？
+              </p>
+              <a href="#" class="continue">続きを読む</a>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <aside>
+        <div class="articleBottom">
+          <a href="https://codecamp.jp/" target="_blank">
+            <img src="images/contents/advert1.png" alt="CodeCamp無料体験">
+          </a>
+        </div>
+
+        <div class="articleBottom">
+          <a href="https://codecamp.jp/" target="_blank">
+            <img src="images/contents/advert2.png" alt="Webデザイン">
+          </a>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <!--footer-->
+  <footer>
+    <div class="footer">
+      <ul class="footerMenu flex">
+        <li class="footerMenu-li">
+          <a class="footerMenu-a" href="#">サイトマップ</a>
+        </li>
+        <li class="footerMenu-li">
+          <a class="footerMenu-a" href="#">プライバシーポリシー</a>
+        </li>
+        <li class="footerMenu-li">
+          <a class="footerMenu-a" href="#">お問い合わせ</a>
+        </li>
+        <li class="footerMenu-li">
+          <a class="footerMenu-a" href="#">ご利用ガイド</a>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="copyright">
+        <small>Copyright &copy; CodeCamp All right reserved.</small>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

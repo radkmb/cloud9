@@ -1,0 +1,53 @@
+body {
+    border: 4px orange solid;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    display: block;
+    border: 1px orange solid;
+    margin: 20px 20px;
+}
+
+h2 {
+    display: block;
+    text-align: left;
+    background-color: orange;
+    margin-top: 0px;
+    padding-left: 10px;
+}
+
+dl {
+    text-align: left;
+}
+
+dt {
+    border-bottom: 1px orange dotted;
+    padding-left: 10px;
+}
+
+.pr {
+    display: block;
+    border: 1px orange solid;
+    margin: 20px 20px;
+}
+
+p {
+    text-align: left;
+    padding: 0px 10px;
+}
+
+a {
+    display: block;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px orange solid;
+    text-decoration: none;
+    background-color: orange;
+}

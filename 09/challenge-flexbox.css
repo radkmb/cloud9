@@ -1,0 +1,69 @@
+.block-group {
+  margin: 0 auto;
+  width: 500px;
+  border: solid 2px;
+}
+
+.blockAB{
+    display: flex;
+}
+
+.blockCDE{
+    display: flex;
+    
+}
+
+.blockDE{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+}
+
+.blockFG{
+    display: flex;
+}
+
+.blockA {
+  height: 50px;
+  background-color: #ff0000;
+  flex: 1;
+}
+
+.blockB {
+  background-color: #00ff00;
+  height: 50px;
+  flex: 1;
+}
+
+.blockC {
+  height: 100px;
+  background-color: #0000ff;
+  flex: 1;
+}
+
+.blockD {
+  height: 50px;
+  background-color: #ffff00;
+}
+
+.blockE {
+  height: 50px;
+  background-color: #ff00ff;
+  flex: 1;
+}
+
+.blockF {
+  height: 50px;
+  background-color: #ffffff;
+  flex: 1;
+}
+
+.blockG {
+  height: 50px;
+  background-color: #00ffff;
+  flex: 4;
+}
+
+footer{
+  flex: 1;
+}

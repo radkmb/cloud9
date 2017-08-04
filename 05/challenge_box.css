@@ -1,0 +1,22 @@
+html, body, h1, ul, a {
+    padding-left: 0px;
+}
+
+h1 {
+    border-bottom: 1px black solid;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    display: block;
+    text-align: center;
+    border: 1px black solid;
+    width: 200px;
+    margin: 10px 0px;
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+}

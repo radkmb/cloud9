@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+nav, aside, article, section {
+  border: 1px black solid;
+  flex: 1;
+}
+
+header {
+  border-bottom: 1px black solid;
+  padding-left: 160px;
+}
+
+main {
+  display: flex;
+  width: 960px;
+  border: 1px black solid;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+nav {
+  flex: 1;
+}
+
+article {
+  flex: 3;
+}
+
+img {
+  width: 300px;
+}
+
+footer {
+  border-bottom: 1px black solid;
+  padding-left: 160px;
+}

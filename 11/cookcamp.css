@@ -1,0 +1,321 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f5f5dd;
+  min-width: 960px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: white;
+  color: #8c5c29;
+  border-bottom: 1px #b5b5ba solid;
+  width: auto;
+}
+
+nav {
+  width: 20%;
+  margin: 0px 10px 0px 0px;
+  padding: 0px;
+  flex: 2;
+}
+
+article {
+  width: 60%;
+  margin: 0px 10px 0px 10px;
+  flex: 6.5;
+}
+
+aside {
+  margin: 0px 0px 0px 10px;
+  flex: 1.5;
+}
+
+footer {
+  background-color: white;
+  border-top: 1px #b5b5ba solid;
+  width: 100%;
+}
+
+h3 {
+  margin: 0;
+}
+
+h4 {
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #8c5c29;
+}
+
+form {
+  margin-left: auto;
+}
+
+ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+figure {
+  text-align: center;
+}
+
+/* all */
+.width {
+  width: 960px;
+  margin: auto;
+}
+
+.mainView {
+  width: 960px;
+  margin-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justifyContent {
+  justify-content: space-between;
+}
+
+.backgroundColor {
+  background-color: white;
+}
+
+.sideMenu-title {
+  background-color: #8bc34a;
+  border-radius: 25px;
+  background-position: 10px 2px;
+  background-image: url(images/icon/dish.png);
+  background-size: 99% contain;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 5px 5px 5px 35px;
+  margin: 5px 0px 3px 0px;
+  align-items: center;
+}
+
+.articleBottom {
+  margin: 0px 0px 20px 0px;
+}
+
+.fontColor {
+  color: #464749;
+}
+
+/* header */
+.headerTop {
+  margin-top: 10px;
+}
+
+.headerNav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.headerNav-li {
+  flex: 1;
+  text-align: center;
+  border-right: 1px #cccccc solid;
+}
+
+.headerNav-li:last-child {
+  border-right: none;
+}
+
+.headerSearch {
+  border: 2px solid;
+  border-radius: 2px;
+  color: #a0a2ab;
+  font-size: 13px;
+  padding: 2px;
+  margin-top: 20px;
+  width: 180px;
+}
+
+.searchBtn {
+  border: 2px white solid;
+  border-radius: 5px;
+  background-color: #8bc34a;
+  color: white;
+  padding: 5px 7px;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.catchcopy {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.headerNav-a {
+  color: #8c5c29;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* main */
+.sideMenu {
+  padding: 5px 5px;
+}
+
+.sideMenu-a {
+  background-image: url(images/icon/arrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  margin: 10px 0px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.sideMenu-li {
+  border-bottom: 1px #cccccc dotted;
+}
+
+.sideMenu-li:last-child {
+  border-bottom: 0px;
+}
+
+.sideMenu-ul {
+  padding-right: 10px;
+  margin-bottom: 0px;
+}
+
+/* article */
+.detail {
+  padding: 0px 10px 0px 10px;
+}
+
+.article-title {
+  margin: 0px 0px 10px 0px;
+  padding: 5px 5px 2px 5px;
+}
+
+.recipeContent {
+  display: flex;
+  margin: 0 auto;
+}
+
+.newRecipe-img {
+  flex: 1;
+  padding: 0px 15px 20px 15px;
+}
+
+.newRecipe-font {
+  text-align: center;
+  white-space: nowrap; /* 改行禁止 */
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.article-ul {
+  padding: 0;
+  margin: auto;
+}
+
+.topicView {
+  flex: 1;
+  height: 190px;
+  margin-right: 10px;
+}
+
+.article-text {
+  flex: 1;
+  font-size: 12.5px;
+}
+
+.intend {
+    text-indent: 1em;
+}
+
+.article-p {
+  margin: 0px 0px 10px 0px;
+  line-height: 15px;
+}
+
+.continue {
+  padding-left: 17px;
+  background-image: url(images/icon/arrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  width: 80px;
+  color: orange;
+  text-decoration: none;
+  margin-left: auto;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.pushRecipe-content {
+  padding: 0px 10px 20px 10px;
+}
+
+.pushRecipe-picture {
+  flex: 1;
+  height: 160px;
+  width: 267px;
+  margin-right: 10px;
+}
+
+.pushArticle {
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+/* footer */
+.footerMenu {
+  display: flex;
+}
+
+.footerMenu-li {
+  flex: 1;
+  text-align: center;
+  display:block;
+  border-right: solid 1px #cccccc;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.footerMenu-li:last-child {
+ border-right: 0px;
+}
+
+.footerMenu-a {
+  color: #b5b5ba;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer {
+  width: 600px;
+  margin: auto;
+}
+
+.copyright-bottom {
+  margin-bottom: 10px;
+}
+
+.copyright {
+  color: #b5b5ba;
+  display: block;
+  width: 350px;
+  height: 50px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
